@@ -1,0 +1,31 @@
+<div class="register-container">
+    <div class="register-box">
+        <h2>Create a user</h2>
+        <form action="index.php?action=addUser" method="post">
+            <div class="form-group">
+                <input name="firstName" type="text" placeholder="First Name*" maxlength="20" required>
+                <input name="name" type="text" placeholder="Name*" maxlength="20" required>
+            </div>
+
+            <input name="email" type="email" placeholder="Email*" maxlength="320" required>
+            <input name="phone" type="tel" placeholder="Phone*" maxlength="10" required>
+
+            <div class="form-group">
+                <input name="city" type="text" placeholder="City*" maxlength="30" required>
+                <input name="cp" type="text" placeholder="Postal code*" maxlength="5" required>
+            </div>
+
+            <p id="message"></p>
+            <input name="password" class="password" type="password" placeholder="Password" id="password" required>
+
+            <button type="submit" class="register-btn">Add user</button>
+        </form>
+        
+    </div>
+</div>
+
+<script src="scripts/script.js"></script>
+<script src="scripts/scriptPassword.js"></script>
+
+</body>
+</html>

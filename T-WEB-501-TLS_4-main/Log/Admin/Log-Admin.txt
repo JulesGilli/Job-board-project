@@ -1,0 +1,89 @@
+---- LOG ADMIN ----
+
+---- DELETE on ADVERTISEMENT ----
+14-10-2024 19-32-52 An admin has deleted an advertisement.
+Delete from Advertisement where idA = 17;
+---- END OF ACTION ----
+
+---- UPDATE on PEOPLE ----
+14-10-2024 19-36-31 An admin has updated a user.
+update People set nom = 'Alfred', prenom = 'Enza', mel = 'enzo.alfred@gmail.com', tel = '0699826028', cityP = 'Toulouse', cp = '31000', cv = '' where idP = 11;
+---- END OF ACTION ----
+
+---- UPDATE on PEOPLE ----
+14-10-2024 19-36-49 An admin has updated a user.
+update People set nom = 'Alfred', prenom = 'Enzo', mel = 'enzo.alfred@gmail.com', tel = '0699826028', cityP = 'Toulouse', cp = '31000', cv = '' where idP = 11;
+---- END OF ACTION ----
+
+---- DELETE on PEOPLE ----
+14-10-2024 19-57-36 An admin has deleted a user.
+Delete from People where idP = 11;
+---- END OF ACTION ----
+
+---- ADD on PEOPLE ----
+14-10-2024 20-17-16 An admin has add a user.
+Insert into People (nom, prenom, mel, tel, cityP, cp, pays, mdp, cv) values ('Alfred','Enzo','enzo.alfred@gmail.com','0699826028','Puy-Guillaume','41000','France','f56eab497eccf48810514a829140d651','')
+---- END OF ACTION ----
+
+---- UPDATE on PEOPLE ----
+14-10-2024 20-17-31 An admin has updated a user.
+update People set nom = 'Alfred', prenom = 'Enzo', mel = 'enzo.alfred@gmail.com', tel = '0699826028', cityP = 'Puy-Guillaume', cp = '31000', cv = '' where idP = 14;
+---- END OF ACTION ----
+
+---- UPDATE on PEOPLE ----
+14-10-2024 20-17-42 An admin has updated a user.
+update People set nom = 'Alfred', prenom = 'Enzo', mel = 'enzo.alfred@gmail.com', tel = '0699826028', cityP = 'Toulouse', cp = '31000', cv = '' where idP = 14;
+---- END OF ACTION ----
+
+---- DELETE on PEOPLE ----
+14-10-2024 20-17-51 An admin has deleted a user.
+Delete from People where idP = 14;
+---- END OF ACTION ----
+
+---- ADD on PEOPLE ----
+14-10-2024 20-18-20 An admin has add a user.
+Insert into People (nom, prenom, mel, tel, cityP, cp, pays, mdp, cv) values ('Alfred','Enzo','enzo.alfred@gmail.com','0699826028','Toulouse','31000','France','f56eab497eccf48810514a829140d651','')
+---- END OF ACTION ----
+
+---- CONNECTION of ADMIN ----
+15-10-2024 09-03-28 An admin is logged in.
+---- END OF ACTION ----
+
+---- CONNECTION of ADMIN ----
+16-10-2024 14-22-10 An admin is logged in.
+---- END OF ACTION ----
+
+---- DELETE on PEOPLE ----
+16-10-2024 14-22-17 An admin has deleted a user.
+Delete from People where idP = 19;
+---- END OF ACTION ----
+
+---- DELETE on PEOPLE ----
+16-10-2024 14-22-38 An admin has deleted a user.
+Delete from People where idP = 16;
+---- END OF ACTION ----
+
+---- DELETE on PEOPLE ----
+16-10-2024 14-23-01 An admin has deleted a user.
+Delete from People where idP = 15;
+---- END OF ACTION ----
+
+---- DELETE on PEOPLE ----
+16-10-2024 14-23-07 An admin has deleted a user.
+Delete from People where idP = 10;
+---- END OF ACTION ----
+
+---- DELETE on PEOPLE ----
+16-10-2024 14-23-13 An admin has deleted a user.
+Delete from People where idP = 9;
+---- END OF ACTION ----
+
+---- DELETE on PEOPLE ----
+16-10-2024 14-23-32 An admin has deleted a user.
+Delete from People where idP = 3;
+---- END OF ACTION ----
+
+---- DELETE on PEOPLE ----
+16-10-2024 14-23-39 An admin has deleted a user.
+Delete from People where idP = 2;
+---- END OF ACTION ----

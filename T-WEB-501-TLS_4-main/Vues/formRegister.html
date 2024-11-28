@@ -1,0 +1,39 @@
+<div class="register-container">
+    <div class="textRegister">
+        <p><b>Ready to find your perfect job match ?</b></p>
+    </div> 
+
+    <div class="register-box">
+        <h2>Create your account</h2>
+        <form action="index.php?controleur=user&action=register" onsubmit="return passwordCheck();" method="post">
+            <div class="form-group">
+                <input name="firstName" type="text" placeholder="First Name*" maxlength="20" required>
+                <input name="name" type="text" placeholder="Name*" maxlength="20" required>
+            </div>
+
+            <input name="email" type="email" placeholder="Email*" maxlength="320" required>
+            <input name="phone" type="tel" placeholder="Phone*" maxlength="10" required>
+
+            <div class="form-group">
+                <input name="city" type="text" placeholder="City*" maxlength="30" required>
+                <input name="cp" type="text" placeholder="Postal code*" maxlength="5" required>
+            </div>
+
+            <p id="message"></p>
+            <input name="password" class="password" type="password" placeholder="Password" id="password" required>
+
+            <button type="submit" class="register-btn">Register</button>
+
+            <div class="separator">
+                <span>or</span>
+            </div>
+        </form>
+        <a href="index.php?controleur=user"><button type="button">Login</button></a>
+        
+    </div>
+</div>
+
+<script src="scripts/script.js"></script>
+<script src="scripts/scriptPassword.js"></script>
+</body>
+</html>

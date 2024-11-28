@@ -1,0 +1,45 @@
+---- LOG USERS ----
+
+---- CONNECTION of USER ----
+15-10-2024 09-04-00 Enzo Alfred is logged in.
+---- END OF ACTION ----
+
+---- UPDATE on PEOPLE ----
+15-10-2024 09-06-51 Enzo Alfred has updated himself.
+update People set nom = 'Alfred', prenom = 'Enza', mel = 'enzo.alfred@gmail.com', tel = '0699826028', cityP = 'Toulouse', cp = '31000', cv = '' where idP = 15;
+---- END OF ACTION ----
+
+---- UPDATE on PEOPLE ----
+15-10-2024 09-16-24 Enzo Alfred has updated himself.
+update People set nom = 'Alfred', prenom = 'Enzi', mel = 'enzo.alfred@gmail.com', tel = '0699826028', cityP = 'Toulouse', cp = '31000', cv = '' where idP = 15;
+---- END OF ACTION ----
+
+---- UPDATE on PEOPLE ----
+15-10-2024 09-16-44 Enzi Alfred has updated himself.
+update People set nom = 'Alfred', prenom = 'Enz0', mel = 'enzo.alfred@gmail.com', tel = '0699826028', cityP = 'Toulouse', cp = '31000', cv = '' where idP = 15;
+---- END OF ACTION ----
+
+---- UPDATE on PEOPLE ----
+15-10-2024 09-16-51 Enz0 Alfred has updated himself.
+update People set nom = 'Alfred', prenom = 'Enzo', mel = 'enzo.alfred@gmail.com', tel = '0699826028', cityP = 'Toulouse', cp = '31000', cv = '' where idP = 15;
+---- END OF ACTION ----
+
+---- UPDATE on PEOPLE ----
+15-10-2024 09-17-03 Enzo Alfred has updated himself.
+update People set nom = 'Alfred', prenom = 'Enzo', mel = 'enzo.alfred@gmail.com', tel = '0699826028', cityP = 'Toulouse', cp = '31000', cv = '' where idP = 15;
+---- END OF ACTION ----
+
+---- UPDATE on PEOPLE ----
+15-10-2024 09-19-35 Enzo Alfred has updated himself.
+update People set nom = 'Alfred', prenom = 'Enzoeb', mel = 'enzo.alfred@gmail.com', tel = '0699826028', cityP = 'Toulouse', cp = '31000', cv = '' where idP = 15;
+---- END OF ACTION ----
+
+---- UPDATE on PEOPLE ----
+15-10-2024 09-19-44 Enzoeb Alfred has updated himself.
+update People set nom = 'Alfred', prenom = 'Enzo', mel = 'enzo.alfred@gmail.com', tel = '0699826028', cityP = 'Toulouse', cp = '31000', cv = '' where idP = 15;
+---- END OF ACTION ----
+
+---- UPDATE on PEOPLE ----
+15-10-2024 09-19-53 Enzo Alfred has updated himself.
+update People set nom = 'Alfred', prenom = 'Enzo', mel = 'enzo.alfred@gmail.com', tel = '0699826028', cityP = 'Toulouse', cp = '31000', cv = 'CV/ea2dfa209003aabedc6192bab81664f0.pdf' where idP = 15;
+---- END OF ACTION ----
